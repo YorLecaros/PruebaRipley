@@ -1,0 +1,4 @@
+applications:
+ - name: davi-practicantes-ussouth
+   random-route: true
+   memory: 256M

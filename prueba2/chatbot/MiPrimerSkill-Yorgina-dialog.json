@@ -1,0 +1,1485 @@
+{
+  "intents": [
+    {
+      "intent": "Agradecimiento",
+      "examples": [
+        {
+          "text": "Eres lo maximo"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Me salvaste"
+        },
+        {
+          "text": "Muchas gracias"
+        },
+        {
+          "text": "Que haria sin ti"
+        },
+        {
+          "text": "Te pasaste"
+        },
+        {
+          "text": "Thanks"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Capital",
+      "examples": [
+        {
+          "text": "Cuál es la capital de"
+        },
+        {
+          "text": "Dime la capital de"
+        },
+        {
+          "text": "La capital de"
+        },
+        {
+          "text": "Me podrías decir la capital de"
+        },
+        {
+          "text": "Necesito saber la capital de"
+        },
+        {
+          "text": "No sé la capital de"
+        },
+        {
+          "text": "Quiero saber de"
+        },
+        {
+          "text": "Quiero saber la capital de"
+        },
+        {
+          "text": "Quisiera que me digas la capital de"
+        },
+        {
+          "text": "Quisiera saber la capital de"
+        }
+      ],
+      "description": "Intencion para obtener la capital de algún departamento del Peru"
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "Adios"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Chau"
+        },
+        {
+          "text": "Hasta luego"
+        },
+        {
+          "text": "Hasta nunca botcito"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Nos vemos pronto"
+        },
+        {
+          "text": "Ya nos vemos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saludo",
+      "examples": [
+        {
+          "text": "Bon dia"
+        },
+        {
+          "text": "Buenas noches"
+        },
+        {
+          "text": "Buenas tardes"
+        },
+        {
+          "text": "Buen dia"
+        },
+        {
+          "text": "Buenos dias"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hola, que tal?"
+        },
+        {
+          "text": "Ola"
+        },
+        {
+          "text": "Que tal"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Departamentos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Amazonas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ancash",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apurimac",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arequipa",
+          "synonyms": [
+            "La Ciudad Blanca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ayacucho",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cajamarca",
+          "synonyms": [
+            "La Flor del Cumbe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Callao",
+          "synonyms": [
+            "Puerto de la Ciudad de los Reyes",
+            "Puerto de la Mar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cuzco",
+          "synonyms": [
+            "Cusco",
+            "Ombligo del mundo",
+            "Qosqo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Huancavelica",
+          "synonyms": [
+            "La Tierra del Mercurio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Huanuco",
+          "synonyms": [
+            "Ciudad de la Eterna Primavera",
+            "Ciudad del Mejor Clima del Mundo",
+            "Ciudad de los Caballeros de León"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ica",
+          "synonyms": [
+            "Ciudad del eterno sol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Junin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "La Libertad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lambayeque",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lima",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Loreto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madre de Dios",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Moquegua",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pasco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Piura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Puno",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Martin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tacna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tumbes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ucayali",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Persona",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "nombre",
+          "patterns": [
+            "[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ']{2,25}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola compañero(a)🤗 antes de empezar necesito unos datos tuyos como tu nombre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1649176147644"
+      },
+      "conditions": "welcome || #Saludo",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_3_1649132581292",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor vuelve a escribir tu nombre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1649190750209",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1649190750240",
+      "previous_sibling": "handler_9_1649190750240"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1649190750209",
+      "context": {
+        "nombre": "@Persona:nombre"
+      },
+      "conditions": "@Persona:nombre",
+      "event_name": "input",
+      "dialog_node": "handler_9_1649190750240"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Huanuco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Huanuco"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Huanuco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Peru_-_Hu%C3%A1nuco_Department_%28locator_map%29.svg/150px-Peru_-_Hu%C3%A1nuco_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Huanuco",
+      "dialog_node": "node_10_1649126194561",
+      "previous_sibling": "node_9_1649126141790"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir Nivel Colegio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$nombre ahora si te puedo ayudar a conocer la capital de cualquier departamento del Perú...let's go! 🥳🥳"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1649176147644",
+      "context": {
+        "nivel": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1649178007163",
+      "previous_sibling": "slot_3_1649190750209"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Ica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Ica"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Ica"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Peru_-_Ica_Department_%28locator_map%29.svg/150px-Peru_-_Ica_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Ica",
+      "dialog_node": "node_11_1649126237313",
+      "previous_sibling": "node_10_1649126194561"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Apurimac",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Abancay"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Abancay"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Peru_-_Apur%C3%ADmac_Department_%28locator_map%29.svg/150px-Peru_-_Apur%C3%ADmac_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Apurimac",
+      "dialog_node": "node_1_1649125665382",
+      "previous_sibling": "node_3_1649125522318"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Junin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Huancayo"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Huancayo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Peru_-_Jun%C3%ADn_Department_%28locator_map%29.svg/150px-Peru_-_Jun%C3%ADn_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Junin",
+      "dialog_node": "node_12_1649126273531",
+      "previous_sibling": "node_11_1649126237313"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento La Libertad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Trujillo"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Trujillo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Peru_-_La_Libertad_Department_%28locator_map%29.svg/150px-Peru_-_La_Libertad_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:(La Libertad)",
+      "dialog_node": "node_13_1649126314899",
+      "previous_sibling": "node_12_1649126273531"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Lambayeque",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Chiclayo"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Chiclayo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Peru_-_Lambayeque_Department_%28locator_map%29.svg/150px-Peru_-_Lambayeque_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Lambayeque",
+      "dialog_node": "node_14_1649126356415",
+      "previous_sibling": "node_13_1649126314899"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Lima",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Lima"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Lima"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Peru_-_Lima_Department_%28locator_map%29.svg/150px-Peru_-_Lima_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Lima",
+      "dialog_node": "node_15_1649126407972",
+      "previous_sibling": "node_14_1649126356415"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Loreto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Iquitos"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Iquitos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Peru_-_Loreto_Department_%28locator_map%29.svg/150px-Peru_-_Loreto_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Loreto",
+      "dialog_node": "node_16_1649126442271",
+      "previous_sibling": "node_15_1649126407972"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Madre de Dios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Puerto Maldonado"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Puerto Maldonado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Peru_-_Madre_de_Dios_Department_%28locator_map%29.svg/150px-Peru_-_Madre_de_Dios_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:(Madre de Dios)",
+      "dialog_node": "node_17_1649126474155",
+      "previous_sibling": "node_16_1649126442271"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Moquegua",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Moquegua"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Moquegua"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Peru_-_Moquegua_Department_%28locator_map%29.svg/150px-Peru_-_Moquegua_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Moquegua",
+      "dialog_node": "node_18_1649126523398",
+      "previous_sibling": "node_17_1649126474155"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Pasco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Cerro de Pasco"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Cerro de Pasco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Peru_-_Pasco_Department_%28locator_map%29.svg/150px-Peru_-_Pasco_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Pasco",
+      "dialog_node": "node_19_1649126756845",
+      "previous_sibling": "node_18_1649126523398"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Piura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Piura"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Piura"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Peru_-_Piura_Department_%28locator_map%29.svg/150px-Peru_-_Piura_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Piura",
+      "dialog_node": "node_20_1649126815421",
+      "previous_sibling": "node_19_1649126756845"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Puno",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Puno"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Puno"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Peru_-_Puno_Department_%28locator_map%29.svg/150px-Peru_-_Puno_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Puno",
+      "dialog_node": "node_21_1649126863110",
+      "previous_sibling": "node_20_1649126815421"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Arequipa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Arequipa"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Arequipa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Peru_-_Arequipa_Department_%28locator_map%29.svg/150px-Peru_-_Arequipa_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Arequipa",
+      "dialog_node": "node_2_1649125735544",
+      "previous_sibling": "node_1_1649125665382"
+    },
+    {
+      "type": "standard",
+      "title": "No Departamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo siento, no conozco la capital de ese departamento🥺 en qué otra capital te puedo ayudar?🌎🔍"
+              },
+              {
+                "text": "Disculpa, pero desconozco la capital😕 te puedo ayudar en algo más?🗺️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1649127558140",
+      "previous_sibling": "node_7_1659544921870"
+    },
+    {
+      "type": "standard",
+      "title": "Superficie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con una superficie total de 12.3 km²"
+              },
+              {
+                "text": "Más información por aquí 👉🏽 https://es.wikipedia.org/wiki/Chachapoyas_(ciudad)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1649124491408",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "dialog_node": "node_2_1649131686938"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento San Martin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Moyobamba"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Moyobamba"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Peru_-_San_Mart%C3%ADn_Department_%28locator_map%29.svg/150px-Peru_-_San_Mart%C3%ADn_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:(San Martin)",
+      "dialog_node": "node_22_1649126900510",
+      "previous_sibling": "node_21_1649126863110"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Tacna",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Tacna"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Tacna"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Peru_-_Tacna_Department_%28locator_map%29.svg/150px-Peru_-_Tacna_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Tacna",
+      "dialog_node": "node_23_1649126999434",
+      "previous_sibling": "node_22_1649126900510"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Tumbes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Tumbes"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Tumbes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Peru_-_Tumbes_Department_%28locator_map%29.svg/150px-Peru_-_Tumbes_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Tumbes",
+      "dialog_node": "node_24_1649127087081",
+      "previous_sibling": "node_23_1649126999434"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Ucayali",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Pucallpa"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Pucallpa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Peru_-_Ucayali_Department_%28locator_map%29.svg/150px-Peru_-_Ucayali_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Ucayali",
+      "dialog_node": "node_25_1649127130367",
+      "previous_sibling": "node_24_1649127087081"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Ancash",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Huaraz"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Huaraz"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Peru_-_Ancash_Department_%28locator_map%29.svg/150px-Peru_-_Ancash_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Ancash",
+      "dialog_node": "node_3_1649125522318",
+      "previous_sibling": "node_5_1649124491408"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Ayacucho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Ayacucho"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Ayacucho"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Peru_-_Ayacucho_Department_%28locator_map%29.svg/150px-Peru_-_Ayacucho_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Ayacucho",
+      "dialog_node": "node_3_1649125791455",
+      "previous_sibling": "node_2_1649125735544"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me encantó poder ayudarte 🌟 Nos vemos pronto! "
+              },
+              {
+                "text": "Oh por cierto, tu última búsqueda fue para: $departamentoBuscado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Despedida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1649132581292",
+      "previous_sibling": "node_3_1649166825915"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No fue nada 🤗...hazme otra pregunta y con gusto responderé"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Agradecimiento",
+      "dialog_node": "node_3_1649166825915",
+      "previous_sibling": "node_8_1649124331908"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Amazonas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de $departamentoBuscado es Chachapoyas"
+              },
+              {
+                "text": "La capital del departamento de Amazonas es Chachapoyas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Peru_-_Amazonas_Department_%28locator_map%29.svg/150px-Peru_-_Amazonas_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1649131686938"
+      },
+      "conditions": "$departamentoBuscado:Amazonas",
+      "dialog_node": "node_5_1649124491408"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Cajamarca",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Cajamarca"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Cajamarca"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_-_Cajamarca_Department_%28locator_map%29.svg/150px-Peru_-_Cajamarca_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Cajamarca",
+      "dialog_node": "node_5_1649125951989",
+      "previous_sibling": "node_3_1649125791455"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Callao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Callao"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Callao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Peru_-_Callao%2C_Constitutional_Province_of_%28locator_map%29.svg/150px-Peru_-_Callao%2C_Constitutional_Province_of_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Callao",
+      "dialog_node": "node_7_1649126069429",
+      "previous_sibling": "node_5_1649125951989"
+    },
+    {
+      "type": "standard",
+      "title": "Otra consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Tienes otra consulta acerca de otro departamento?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1649124331908"
+      },
+      "dialog_node": "node_7_1659544921870",
+      "previous_sibling": "node_25_1649127130367"
+    },
+    {
+      "type": "standard",
+      "title": "Capital",
+      "output": {},
+      "context": {
+        "departamentoBuscado": "@Departamentos"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1649124491408"
+      },
+      "conditions": "#Capital",
+      "dialog_node": "node_8_1649124331908",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Cuzco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Cuzco"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Cuzco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Peru_-_Cuzco_Department_%28locator_map%29.svg/150px-Peru_-_Cuzco_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Cuzco",
+      "dialog_node": "node_8_1649126104862",
+      "previous_sibling": "node_7_1649126069429"
+    },
+    {
+      "type": "standard",
+      "title": "Departamento Huancavelica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La capital de @Departamentos es Huancavelica"
+              },
+              {
+                "text": "La capital del departamento de @Departamentos es Huancavelica"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Departamento de @Departamentos",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peru_-_Huancavelica_Department_%28locator_map%29.svg/150px-Peru_-_Huancavelica_Department_%28locator_map%29.svg.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1649124331908",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1659544921870"
+      },
+      "conditions": "@Departamentos:Huancavelica",
+      "dialog_node": "node_9_1649126141790",
+      "previous_sibling": "node_8_1649126104862"
+    },
+    {
+      "type": "frame",
+      "title": "Pedir Nombre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿En qué nivel te encuentras? (primaria, secundaria u otro)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Elige entre estas 3 opciones",
+            "options": [
+              {
+                "label": "primaria",
+                "value": {
+                  "input": {
+                    "text": "primaria"
+                  }
+                }
+              },
+              {
+                "label": "secundaria",
+                "value": {
+                  "input": {
+                    "text": "secundaria"
+                  }
+                }
+              },
+              {
+                "label": "otro",
+                "value": {
+                  "input": {
+                    "text": "otro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "context": {
+        "nombre": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1649176147644"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1649176147644",
+      "variable": "$nombre",
+      "dialog_node": "slot_3_1649190750209"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "MiPrimerSkill-Yorgina",
+  "language": "es",
+  "description": ""
+}
